@@ -1,0 +1,54 @@
+.footer{
+	background-color: #2F2F2F;
+	color: white;
+}
+input[type="email"],
+.submit_newsletter{
+	border: none;
+    padding: 10px 20px 10px 20px;
+    color: #000000;
+}
+.submit_newsletter{
+	margin-bottom: 50px;
+	letter-spacing: 0.1em;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.social_network{background-color: #262626;}
+.social_network li{display: inline;}
+.social_network a{color: white;}
+.social_network a:hover{text-decoration: none;}
+
+svg{
+	margin-top: 10px;
+	margin-right: 30px;
+	width: 30px;
+	height: 30px;
+}
+a svg .facebook,
+a svg .twitter,
+a svg .reddit,
+a svg .twitch,
+a svg .youtube {
+  transition: 300ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 300ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+a svg:hover .facebook{fill: #3b5998 !important;}
+a svg:hover .twitter{fill: #00aced !important;}
+a svg:hover .reddit{fill: #D80000 !important;}
+a svg:hover .twitch{fill: #6441A5 !important;}
+a svg:hover .youtube{fill: #C51B20 !important;}
+
+@media all and (max-width: 992px){
+	input[type="email"]{margin:20px 0 20px 0;}
+	input[type="email"],
+	input[type="submit"]{
+		width: 100%;
+		padding: 10px;
+}
+	svg{width: 25px !important;}
+
+}

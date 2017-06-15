@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*GRAND ECRAN*/
+*{
+	font-family: 'Montserrat', 'Arial' !important;
+}
+input:focus{outline: 0;}
+
+.header{
+	background-image: url('../img/header2.jpg');
+	background-position: top center;
+	background-attachment: fixed;
+	margin-top: 30px;
+}
+.layout{
+	/*background: rgba(64,72,82,.5);*/
+	background: rgba(135, 154, 177, 0.5);
+    height: 580px;
+}
+h1{
+	font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    margin: auto;
+    line-height: 50px;
+    padding-top: 265px;
+}
+.background-article{background-image: url('../img/background.jpg');}
+
+.trois_articles{
+	padding: 10px 0 0 50px;
+    width: 30%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.article_link{
+    font-size: 15px;
+    font-weight: 800;
+    color: #646464;
+    transition: all 0.3s ease-out 0s;
+}
+.trois_articles img,
+.trois_articles h2{margin-top: 10px;}
+.trois_articles img{
+	width: 285px;
+	height: 149px;
+	transition: all .2s ease-in-out;
+	margin-bottom: 7px;
+}
+.trois_articles h2{margin-bottom: 0;}
+.trois_articles p.date{
+	margin: 0;
+	float: right;
+	margin-right: 10px;
+	font-size: 7px;
+}
+
+.trois_articles:hover .article_link{
+	color: #c74c1e;
+    transition: all 0.3s ease-out 0s;
+    text-decoration: none;
+}
+.trois_articles:hover img{transform: scale(1.05);}
+
+.intro_article{
+    height: 70px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: 12px;
+    -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(#000000), to(rgba(0, 0, 0, 0)));
+    overflow: hidden;
+}
+.container_load{margin: 10px 0 10px 10px;}
+.loadmore,
+.add_article{
+	border: none;
+    width: 100%;
+    height: 40px;
+    background: #c74c1e;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+}
+.add_article{
+	padding: 1px 10px 1px 10px;
+    text-transform: none;
+    margin-right: 15px;
+}
+.add_article:hover{
+	color: white;
+	text-decoration: none;
+}
+.loadmore:hover{background: #dd5421;}
+hr{display: none;}
+@media all and (max-width: 1200px){
+	.background_header{
+		min-height: 300px;
+		background-image: url(../img/header_ecole.jpg);
+		background-position: center;
+	}
+
+	.nav_bar{top: 236px;}
+	.accueil{margin-left: 20px;}
+	.container_link{padding: 0 15px;}
+	.trois_articles{
+		display: inline-block;
+		width: 49%;
+		padding: 10px;
+	}
+	.trois_articles img {
+		width: 100%;
+		height: 100%;
+	}
+	.intro_article{
+		height: 35px;
+	    overflow: hidden;
+	}
+
+}
+@media all and (max-width: 992px){
+	.trois_articles{
+		display: block;
+		width: 100%;
+	}
+	.trois_articles img {
+		width: 100%;
+		height: 100%;
+	}
+	.intro_article{
+		height: 35px;
+	    overflow: hidden;
+	}
+	hr{
+		display: block;
+		border-color: black;
+	}
+}
