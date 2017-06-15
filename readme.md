@@ -6,6 +6,7 @@ Site web contenant tous les derniers articles sur le jeu H1Z1 : King of the Kill
 De plus vous pouvez rentrer votre e-mail pour recevoir un message quand un article est sortie.
 
 ![wireframe](https://preview.ibb.co/dvMkck/wireframe.jpg "wireframe 1")
+------------------------------------------------------------------------------------------------------------------------------------------
 ![wireframe](https://preview.ibb.co/knTbiQ/wireframe_article.jpg "wireframe 1")
 
 ## TECHNOLOGIES
